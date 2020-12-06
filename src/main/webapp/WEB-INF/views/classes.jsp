@@ -88,9 +88,10 @@
 					<tr>
 						<td><c:out value="${classinfo.year}"></c:out></td>
 						<td><c:out value="${classinfo.semester}"></c:out></td>
-						<td><c:out value="${classinfo.amount}"></c:out></td>
-						<td><a href="#"></a></td>
-						<td></td>
+						<td><c:out value="${amount}"></c:out></td>
+						<td><a
+							href="${pageContext.request.contextPath}/certainclass?year=${year}&semester=${semester}">자세히</a>
+						</td>
 					</tr>
 				</c:if>
 
